@@ -3,7 +3,7 @@ const contains = function(key, value) {
 
    for (const item of valuesObj){
       
-      if(Object.is(item, value)){
+      if(Object.isNan(value)){
          return true; 
       }
 
